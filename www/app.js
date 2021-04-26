@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', () => {
        timerId = setInterval(moveDown, 1000);
 
 
-
+    // Commandes tactiles pour la version mobile
     // document.querySelector(".left").addEventListener("touchstart", moveLeft);
     // document.querySelector(".right").addEventListener("touchstart", moveRight);
     // document.querySelector(".down").addEventListener("touchstart", moveDown);
