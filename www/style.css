@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    background-image: url('images/russie.jpg');
+    background-size: cover;
+    /* background-position: -300px 0; */
+    height: 100vh;
+  
+}
+.grid {
+    width: 200px;
+    height: 400px;
+    background-color: rgba(12, 66, 167, 0.589);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 3px solid rgb(22, 22, 180);
+    border-radius: 4px;
+}
+.container {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 80px;
+ 
+    
+}
+.grid div {
+    height: 20px;
+    width: 20px;
+}
+.mini-grid {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(27, 24, 221, 0.404);
+    margin-left: 20px;
+}
+.mini-grid div {
+    height: 20px;
+    width: 20px;
+    border: 1px solid rgb(187, 219, 246);
+}
+
+.manette {
+    display: flex;
+    justify-content: space-between;
+    width: 370px;
+    background-color: rgb(182, 179, 179);
+    margin-top: 70px;
+    height: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 101px;
+    background-image: url('images/manette.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.paddle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.side {
+    display: flex;
+   
+    width: 110px;
+    justify-content: space-between;
+}
+.right-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#start-button {
+    height: 20px;
+    width: 60px;
+    border-radius: 16px;
+    border: none;
+    box-shadow: 2px 2px 4px grey;
+}
+.btn-turn {
+    margin-left: 50px;
+}
+.redB {
+    width: 70px;
+    
+}
+ .up{
+    width: 30px;
+    height: 40px;
+    background: linear-gradient(black, grey);
+}
+.down{
+    width: 30px;
+    height: 40px;
+    background: linear-gradient(grey, black);
+}
+
+.left, .right {
+    width: 40px;
+    height: 30px;
+    background: linear-gradient(grey, black);
+}
+.tetromino {
+    background: linear-gradient(to left top, blue, red);
+}

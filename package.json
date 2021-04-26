@@ -1,0 +1,17 @@
+{
+  "name": "tetris",
+  "version": "1.0.0",
+  "description": "Jeu Tetris",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Bruno Castagna",
+  "license": "ISC",
+  "dependencies": {
+    "@capacitor/android": "^2.4.7",
+    "@capacitor/cli": "^2.4.7",
+    "@capacitor/core": "^2.4.7"
+  }
+}
